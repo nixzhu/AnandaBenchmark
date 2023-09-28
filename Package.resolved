@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "ananda",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nixzhu/Ananda.git",
+      "state" : {
+        "revision" : "a0ce17290ade9368f4f1cd9ef96a96293169b705",
+        "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "jjliso8601dateformatter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
+      "state" : {
+        "revision" : "de422afd9a47b72703c30a81423c478337191390",
+        "version" : "0.1.6"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "8f4d2753f0e4778c76d5f05ad16c74f707390531",
+        "version" : "1.2.3"
+      }
+    },
+    {
+      "identity" : "swift-benchmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/swift-benchmark.git",
+      "state" : {
+        "revision" : "8163295f6fe82356b0bcf8e1ab991645de17d096",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
+        "version" : "509.0.0"
+      }
+    },
+    {
+      "identity" : "yyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ibireme/yyjson.git",
+      "state" : {
+        "revision" : "e01ae9d89eaf858894d366169329097171a28d67",
+        "version" : "0.8.0"
+      }
+    }
+  ],
+  "version" : 2
+}
