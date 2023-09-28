@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "ananda",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nixzhu/Ananda.git",
+      "state" : {
+        "revision" : "88610d751b7a65ed1aee1b0cd5636096ea239cb9",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "anandamacros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nixzhu/AnandaMacros.git",
+      "state" : {
+        "revision" : "7b27f7fca8a91b139d7a9d997aee6e81a0220bd6",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "jjliso8601dateformatter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
+      "state" : {
+        "revision" : "741a9e45db01148a8ac60c5e12f7c978181a22d3",
+        "version" : "0.1.8"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-benchmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/swift-benchmark.git",
+      "state" : {
+        "revision" : "8163295f6fe82356b0bcf8e1ab991645de17d096",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
+        "version" : "601.0.1"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "yyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ibireme/yyjson.git",
+      "state" : {
+        "revision" : "9ddba001a4ea88e93b46932e5c5b87b222e19a5f",
+        "version" : "0.10.0"
+      }
+    }
+  ],
+  "version" : 2
+}
