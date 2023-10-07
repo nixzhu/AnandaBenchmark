@@ -10,7 +10,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/nixzhu/Ananda.git",
-            from: "0.5.0"
+            branch: "main"
+        ),
+        .package(
+            url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
+            from: "5.0.1"
         ),
         .package(
             url: "https://github.com/google/swift-benchmark.git",
@@ -24,6 +28,10 @@ let package = Package(
                 .product(
                     name: "Ananda",
                     package: "Ananda"
+                ),
+                .product(
+                    name: "SwiftyJSON",
+                    package: "SwiftyJSON"
                 ),
                 .product(
                     name: "Benchmark",

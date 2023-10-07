@@ -1,5 +1,6 @@
 import Foundation
 import Ananda
+import SwiftyJSON
 import Benchmark
 
 let jsonData = """
@@ -53,7 +54,44 @@ benchmark("Codable decoding") {
     }
 
     let model = try! JSONDecoder().decode(IndieApp.self, from: jsonData)
+    assert(model.supportedOutputs[1] == "Swift")
     assert(model.developer.userID == 42)
+    assert(model.developer.websiteURL.absoluteString == "https://nixzhu.dev")
+}
+
+benchmark("SwiftyJSON decoding") {
+    struct IndieApp {
+        struct Developer {
+            let userID: Int
+            let username: String
+            let email: String
+            let websiteURL: URL
+
+            init(json: SwiftyJSON.JSON) {
+                userID = json["user_id"].intValue
+                username = json["username"].stringValue
+                email = json["email"].stringValue
+                websiteURL = json["website_url"].url!
+            }
+        }
+
+        let name: String
+        let introduction: String
+        let supportedOutputs: [String]
+        let developer: Developer
+
+        init(json: SwiftyJSON.JSON) {
+            name = json["name"].stringValue
+            introduction = json["introduction"].stringValue
+            supportedOutputs = json["supported_outputs"].arrayValue.map { $0.stringValue }
+            developer = .init(json: json["developer"])
+        }
+    }
+
+    let model = IndieApp(json: try SwiftyJSON.JSON(data: jsonData))
+    assert(model.supportedOutputs[1] == "Swift")
+    assert(model.developer.userID == 42)
+    assert(model.developer.websiteURL.absoluteString == "https://nixzhu.dev")
 }
 
 benchmark("Ananda decoding") {
@@ -86,7 +124,9 @@ benchmark("Ananda decoding") {
     }
 
     let model = IndieApp(jsonData)
+    assert(model.supportedOutputs[1] == "Swift")
     assert(model.developer.userID == 42)
+    assert(model.developer.websiteURL.absoluteString == "https://nixzhu.dev")
 }
 
 benchmark("Ananda decoding with Macro") {

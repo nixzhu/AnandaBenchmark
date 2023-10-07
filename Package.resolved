@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nixzhu/Ananda.git",
       "state" : {
-        "revision" : "a0ce17290ade9368f4f1cd9ef96a96293169b705",
-        "version" : "0.5.0"
+        "branch" : "main",
+        "revision" : "c4b19db51a8ccaf2c23a193fa70d16ad21acf73e"
       }
     },
     {
@@ -43,6 +43,15 @@
       "state" : {
         "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
         "version" : "509.0.0"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+        "version" : "5.0.1"
       }
     },
     {
