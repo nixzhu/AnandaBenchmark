@@ -6,7 +6,7 @@
       "location" : "https://github.com/nixzhu/Ananda.git",
       "state" : {
         "branch" : "main",
-        "revision" : "c4b19db51a8ccaf2c23a193fa70d16ad21acf73e"
+        "revision" : "785b51881fe08d3225dc9ec5da0eeae907f6dbea"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
       "state" : {
-        "revision" : "de422afd9a47b72703c30a81423c478337191390",
-        "version" : "0.1.6"
+        "revision" : "ed1d996123688bade6e895aa49595f0d862900e7",
+        "version" : "0.1.7"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "8f4d2753f0e4778c76d5f05ad16c74f707390531",
-        "version" : "1.2.3"
+        "revision" : "c8ed701b513cf5177118a175d85fbbbcd707ab41",
+        "version" : "1.3.0"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax.git",
       "state" : {
-        "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
-        "version" : "509.0.0"
+        "revision" : "6ad4ea24b01559dde0773e3d091f1b9e36175036",
+        "version" : "509.0.2"
       }
     },
     {

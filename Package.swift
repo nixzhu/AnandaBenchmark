@@ -37,6 +37,9 @@ let package = Package(
                     name: "Benchmark",
                     package: "swift-benchmark"
                 ),
+            ],
+            resources: [
+                .copy("github_events.json")
             ]
         ),
     ]
