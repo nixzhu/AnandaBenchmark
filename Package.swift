@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "AnandaBenchmark",
     platforms: [
-        .macOS(.v13),
+        .macOS(.v10_15),
     ],
     dependencies: [
         .package(
@@ -13,8 +13,12 @@ let package = Package(
             branch: "main"
         ),
         .package(
+            url: "https://github.com/nixzhu/AnandaMacros.git",
+            branch: "main"
+        ),
+        .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            from: "5.0.1"
+            from: "5.0.2"
         ),
         .package(
             url: "https://github.com/google/swift-benchmark.git",
@@ -28,6 +32,10 @@ let package = Package(
                 .product(
                     name: "Ananda",
                     package: "Ananda"
+                ),
+                .product(
+                    name: "AnandaMacros",
+                    package: "AnandaMacros"
                 ),
                 .product(
                     name: "SwiftyJSON",

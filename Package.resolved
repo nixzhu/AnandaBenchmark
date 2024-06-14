@@ -6,7 +6,16 @@
       "location" : "https://github.com/nixzhu/Ananda.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f56c61c59ee8da61ec7cd81f0ab561af73ab686d"
+        "revision" : "4e99086195080495965c6a9d46a4a442c2fbade9"
+      }
+    },
+    {
+      "identity" : "anandamacros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nixzhu/AnandaMacros.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a142c726df9ecceea3c49a240bd2bb1db6e014e2"
       }
     },
     {
@@ -14,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
       "state" : {
-        "revision" : "ed1d996123688bade6e895aa49595f0d862900e7",
-        "version" : "0.1.7"
+        "revision" : "741a9e45db01148a8ac60c5e12f7c978181a22d3",
+        "version" : "0.1.8"
       }
     },
     {
@@ -23,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "46989693916f56d1186bd59ac15124caef896560",
-        "version" : "1.3.1"
+        "revision" : "0fbc8848e389af3bb55c182bc19ca9d5dc2f255b",
+        "version" : "1.4.0"
       }
     },
     {
@@ -41,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax.git",
       "state" : {
-        "revision" : "fa8f95c2d536d6620cc2f504ebe8a6167c9fc2dd",
-        "version" : "510.0.1"
+        "revision" : "303e5c5c36d6a558407d364878df131c3546fad8",
+        "version" : "510.0.2"
       }
     },
     {
@@ -50,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
       "state" : {
-        "revision" : "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
-        "version" : "5.0.1"
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
       }
     },
     {
@@ -59,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ibireme/yyjson.git",
       "state" : {
-        "revision" : "e01ae9d89eaf858894d366169329097171a28d67",
-        "version" : "0.8.0"
+        "revision" : "b21c02904188add942d3c7cd4885422e4335f115",
+        "version" : "0.9.0"
       }
     }
   ],
