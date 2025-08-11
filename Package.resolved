@@ -1,12 +1,13 @@
 {
+  "originHash" : "c75332b04f3a4d56e3a910ef5953e41f1cabf3019e6277a1955b2d521944cbae",
   "pins" : [
     {
       "identity" : "ananda",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nixzhu/Ananda.git",
       "state" : {
-        "revision" : "88610d751b7a65ed1aee1b0cd5636096ea239cb9",
-        "version" : "1.0.0"
+        "revision" : "ebddd884c75e568cb189bd9d384558a67fba99bb",
+        "version" : "1.1.0"
       }
     },
     {
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nixzhu/AnandaMacros.git",
       "state" : {
-        "revision" : "7b27f7fca8a91b139d7a9d997aee6e81a0220bd6",
-        "version" : "1.1.0"
+        "revision" : "3c9314464707ed99b8a27886c44521084ef53d7a",
+        "version" : "1.2.0"
       }
     },
     {
@@ -32,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
-        "version" : "1.5.0"
+        "revision" : "309a47b2b1d9b5e991f36961c983ecec72275be3",
+        "version" : "1.6.1"
       }
     },
     {
@@ -50,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
-        "revision" : "f99ae8aa18f0cf0d53481901f88a0991dc3bd4a2",
-        "version" : "601.0.1"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
       }
     },
     {
@@ -68,10 +69,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ibireme/yyjson.git",
       "state" : {
-        "revision" : "9ddba001a4ea88e93b46932e5c5b87b222e19a5f",
-        "version" : "0.10.0"
+        "revision" : "9e24d6bcead647231f81173cc5c6bb6c097c00e4",
+        "version" : "0.11.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

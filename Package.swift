@@ -1,20 +1,20 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 6.0
 
 import PackageDescription
 
 let package = Package(
     name: "AnandaBenchmark",
     platforms: [
-        .macOS(.v15),
+        .macOS(.v14),
     ],
     dependencies: [
         .package(
             url: "https://github.com/nixzhu/Ananda.git",
-            from: "1.0.0"
+            from: "1.1.0"
         ),
         .package(
             url: "https://github.com/nixzhu/AnandaMacros.git",
-            from: "1.1.0"
+            from: "1.2.0"
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
@@ -47,7 +47,7 @@ let package = Package(
                 ),
             ],
             resources: [
-                .copy("github_events.json")
+                .copy("github_events.json"),
             ]
         ),
     ]
