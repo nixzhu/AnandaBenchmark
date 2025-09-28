@@ -10,11 +10,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/nixzhu/Ananda.git",
-            from: "1.1.0"
+            from: "1.2.0"
         ),
         .package(
             url: "https://github.com/nixzhu/AnandaMacros.git",
-            from: "1.2.0"
+            from: "1.3.0"
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
