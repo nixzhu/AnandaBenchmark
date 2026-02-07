@@ -1,13 +1,13 @@
 {
-  "originHash" : "c75332b04f3a4d56e3a910ef5953e41f1cabf3019e6277a1955b2d521944cbae",
+  "originHash" : "517ecf9099b0eb315d1bfc7391b59d6cc75c95eac411a839d60d00ede5100524",
   "pins" : [
     {
       "identity" : "ananda",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nixzhu/Ananda.git",
       "state" : {
-        "revision" : "1c3696eeff6a945d4c65ec8349bca78ab1b14498",
-        "version" : "1.2.0"
+        "revision" : "aecd5a04cabcc1d36533db1d847ed6f3e1504e3a",
+        "version" : "1.3.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nixzhu/AnandaMacros.git",
       "state" : {
-        "revision" : "2d746e86f74e9aedd0ac1eaeeecdf6d94e5cbc4a",
-        "version" : "1.3.0"
+        "revision" : "09fed399cfa004cf070331121c2ff68c7803afb8",
+        "version" : "1.4.0"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/michaeleisel/JJLISO8601DateFormatter.git",
       "state" : {
-        "revision" : "741a9e45db01148a8ac60c5e12f7c978181a22d3",
-        "version" : "0.1.8"
+        "revision" : "50d5ea26ffd3f82e3db8516d939d80b745e168cf",
+        "version" : "0.2.0"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "309a47b2b1d9b5e991f36961c983ecec72275be3",
-        "version" : "1.6.1"
+        "revision" : "c5d11a805e765f52ba34ec7284bd4fcd6ba68615",
+        "version" : "1.7.0"
       }
     },
     {
